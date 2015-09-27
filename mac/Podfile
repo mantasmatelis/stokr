@@ -1,0 +1,16 @@
+# Uncomment this line to define a global platform for your project
+platform :osx, '10.10.5'
+use_frameworks!
+
+target 'icestream' do
+	pod 'AFNetworking', '~> 2.5.4'
+end
+
+target 'icestreamTests' do
+
+end
+
+target 'icestreamUITests' do
+
+end
+
